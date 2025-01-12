@@ -1,0 +1,101 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.div1{
+    font-weight: bold;
+    font-size: 30px;
+    background: linear-gradient(90deg, #aa336a, #f5cbc1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: #f5cbc1;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2px;
+    padding: 30px 20px;
+    background-color: #269FA6;
+}
+nav{
+    display: flex;
+    gap: 15px;
+}
+nav a{
+    font-weight: bold;
+    margin-right: 20px;
+}
+nav a:hover{
+    color: #fff;
+}
+
+.A1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 75px;
+    background-color: #f5cbc1;
+    height: 75vh;
+}
+.A1a{
+    max-width: 50%;
+}
+.A1b{
+    max-width: 50%;
+}
+.A1b img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #269FA6;
+    padding: 10px 15px;
+    color: #f5cbc1;
+    border-radius: 20%;
+}
+
+.aa{
+    text-align: center;
+}   
+
+.A2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px 35px;
+    background-color: #269FA6;
+    text-align: center;
+}
+.A2a{
+    padding: 20px;
+    background-color: #f5cbc1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+}
+
+.A3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px 35px;
+    background-color: #f5cbc1;
+    text-align: center;
+}
+.A3a{
+    padding: 20px;
+    background-color: #269FA6;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
